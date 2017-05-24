@@ -1,5 +1,5 @@
 applications:
-  path: .
+- path: .
   command: FLASK_APP=server.py flask run --host=0.0.0.0
   memory: 128M
   instances: 1
